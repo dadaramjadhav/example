@@ -17,4 +17,8 @@ public class Application {
 	public String welcome() {
 		return "welcome";
 	}
+	@RequestMapping("/home")
+	public String home() {
+		return "welcome to home page";
+	}
 }
